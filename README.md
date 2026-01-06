@@ -26,12 +26,12 @@ The code compares two scenarios where $\omega_0 = 1.0$:
 A standalone Python script that performs the simulation over a defined number of steps.
 * **Output:** Generates a static side-by-side plot of the Phase Space ($x$ vs $v$) for both rational and irrational ratios.
 * **Usage:** Best for a quick snapshot of the final trajectory.
-
+![Static Phase Space Plot](static.png)
 ### 2. `FOanim.ipynb`
 A Jupyter Notebook implementation.
 * **Output:** Generates an interactive HTML5 animation using `matplotlib.animation`.
 * **Usage:** Best for visualizing *how* the trajectory evolves over time and watching the irrational curve slowly fill the plane.
-
+![Phase Space Animation](anim.gif)
 ## Dependencies
 To run the code, you will need **Python 3** and the following libraries:
 
