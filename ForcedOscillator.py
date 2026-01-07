@@ -44,10 +44,11 @@ ax1.grid(True, linestyle='--', alpha=0.6)
 
 # Irrational
 ax2.plot(x_irr, v_irr, lw=0.5, color='red', alpha=0.6)
-ax2.set_title(r"Irrational ratio ($\omega_f / \omega_0 = \sqrt{2}$)" + "\nDense, closed, quasi-periodic trajectory")
+ax2.set_title(r"Irrational ratio ($\omega_f / \omega_0 = \sqrt{2}$)" + "\nDense, open, quasi-periodic trajectory")
 ax2.set_xlabel("Position $x$")
 ax2.set_ylabel("Velocity $v$")
 ax2.grid(True, linestyle='--', alpha=0.6)
 
 plt.tight_layout()
+
 plt.show()
